@@ -51,7 +51,7 @@ header img {
     line-height: 30px;
     height: 30px;
     letter-spacing: 1.1px;
-    font-size: ;
+    font-size: 1;
 }
 
 .container-1 {
@@ -126,3 +126,55 @@ footer {
 .app {
     width: 130px;
 }
+
+
+    /* <----- PRODUTOS -----> */
+
+#banner-produtos {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 35vh;
+}
+
+#container-produtos {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: cadetblue;
+    height: 15vh;
+}
+
+#produtos-resumo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 20vh;
+}
+
+#resumo {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+#produtos-beneficios {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: cadetblue;
+    height: 15vh;
+}
+
+#produtos-cobertura{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 35vh;
+}
+
