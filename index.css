@@ -1,3 +1,5 @@
+/* <----- HEADER DE TODOS OS SITES -----> */
+
 * {
     font-family: Calibri;
     padding: 0;
@@ -12,7 +14,6 @@ header {
     background-color: #3B4F66;
     align-items: center;
     align-content: center;
-    font-size: 18px;
     letter-spacing: 1.1px;
     justify-content: space-between;
     font-size: 20px;
@@ -21,7 +22,6 @@ header {
 header img {
     width: 130px;
     margin-right: 30px;
-
 }
 
 .menu-topo {
@@ -31,7 +31,7 @@ header img {
     gap: 16px;
     align-items: center;
     text-align: center;
-
+    padding-right: 700px;
 }
 
 #link-header {
@@ -40,9 +40,10 @@ header img {
 }
 
 #login {
-    padding-left: 30vw;
     padding-right: 2vw;
 }
+
+/* <----- PÁGINA INICIAL -----> */
 
 .imagem {
     width: 100%;
@@ -112,17 +113,7 @@ header img {
     text-decoration: none;
 }
 
-.texto-2 {
-    position: absolute;
-    text-align: center;
-    top: 100px;
-    width: 100vw;
-    line-height: 7vh;
-    height: 30px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #364959;
-}
+/* <----- FOOTER DE TODOS OS SITES -----> */
 
 footer {
     display: grid;
@@ -154,22 +145,94 @@ footer {
     align-items: center;
 }
 
+@media screen and (max-device-width: 375px)
+{
+#container-facilidades {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+align-items: center;
+text-align: center;
+row-gap: 20px;
+column-gap: 20px;
+margin-bottom: 30px;
+font-size: 19px;
+}
+.menu-topo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    padding-right: 0;
+}
+header img {
+    width: 20vw;
+    margin-right: 2.3vw;
+}
 
-    /* <----- PRODUTOS -----> */
+header {
+    height: 12vh;
+    display: flex;
+    background-color: #3B4F66;
+    align-items: center;
+    align-content: center;
+    letter-spacing: 1.1px;
+    justify-content: space-between;
+    font-size: 0.6em;
+}
+
+    #item-facilidades {
+    display: flex;
+    box-shadow: 1px 1px 3px 1px #3B4F66;
+    width: 120px;
+    height: 120px;
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    text-decoration: none;
+    }
+
+    #login {
+        padding-right: 3vw;
+    }
+
+    footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        height: 95vh;
+        background-color: #3B4F66;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+    }
+}
+
+
+/* <----- PÁGINA PRODUTOS -----> */
 
 #banner-produtos {
     display: grid;
     align-content: center;
     justify-content: center;
-    background-color: aqua;
+    background-color: white;
     height: 35vh;
+    width: 100%;
+}
+
+#banner-produtos img {
+    width: 100%;
 }
 
 #container-produtos {
     display: grid;
     align-content: center;
     justify-content: center;
-    background-color: cadetblue;
+    background-color: white;
     height: 15vh;
 }
 
